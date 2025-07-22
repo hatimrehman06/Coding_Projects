@@ -2,7 +2,7 @@ import random
 
 print("Welcome to the Magic 8 Ball!")
 name = input("What is your name? ")
-question = input("Hello " + name + ", ask a question: ")
+question = input("Hello " + name + ", ask a yes or no question: ")
 
 
 random_number = random.randint(1, 9)
